@@ -20,11 +20,11 @@ app.on('ready', function() {
 });
 
 function openWindow(baseDir) {
-    var win = new BrowserWindow({width: 800, height: 600});
-    win.loadUrl('file://' + __dirname + '/index.html?baseDir=' + encodeURIComponent(baseDir));
-    win.on('closed', function() {
-        win = null;
-    });
+  var win = new BrowserWindow({width: 800, height: 600});
+  win.loadUrl('file://' + __dirname + '/index.html?baseDir=' + encodeURIComponent(baseDir));
+  win.on('closed', function() {
+    win = null;
+  });
 }
 
 var template = [

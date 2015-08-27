@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+.preview {
+    float: left;
+    padding-left: 40px;
+    width: 500px;
+}
+
+.select-list {
+    width: 200px;
+    list-style-type: none;
+    background: #f0f0f0;
+    height: 80px;
+    vertical-align: middle;
+    line-height: 80px;
+    padding-left: 20px;
+    border-bottom: 1px solid #000;
+    color: #000;
+    cursor: pointer;
+}

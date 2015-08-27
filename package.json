@@ -1,9 +1,9 @@
 {
-  "name": "electron-read",
-  "version": "0.0.1",
-  "description": "",
-  "main": "main.js",
-  "dependencies": {
-    "glob": "^5.0.14"
-  }
+    "name": "electron-read",
+    "version": "0.0.1",
+    "description": "",
+    "main": "main.js",
+    "dependencies": {
+        "glob": "^5.0.14"
+    }
 }
